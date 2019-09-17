@@ -1,0 +1,9 @@
+1，soul  和 soul-test, soul-extend-demo  其实是三个项目，分开启动，遇到很多坑啊
+
+2，idea 一个项目启动两个实例：
+        Edit Configurations -- allow running parrels
+
+
+3，先启动soul-admin (后台配置系统)
+
+
