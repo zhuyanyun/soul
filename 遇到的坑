@@ -6,4 +6,16 @@
 
 3，先启动soul-admin (后台配置系统)
 
+4,启动bootstrap
+
+5,启动soul-test-http
+
+6,divide 一直报错：   【不知道哪里配置有问题】
+        "status": 405,
+        "error": "Method Not Allowed"
+
+        ip是bootstrap 中的IP；
+
+
+
 

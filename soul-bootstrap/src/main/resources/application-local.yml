@@ -7,20 +7,31 @@ spring:
      allow-bean-definition-overriding: true
    application:
     name: soul-bootstrap
+   zookeeper:
+     url: localhost:2181
+     sessionTimeout: 5000
+     connectionTimeout: 2000
+     serializer: KryoSerializer
 
 soul :
     filterTimeEnable : false
     filterTime : 10
+
+    bufferSize: 4096
+    timeVerify:
+      timeDelay: 10
+      enabled: false
+
     sync:
-        strategy: http
+#        strategy: http
 #        websocket :
 #             url: ws://localhost:8887/websocket
-        zookeeper:
-             url: localhost:2181
-             sessionTimeout: 5000
-             connectionTimeout: 2000
+#        zookeeper:
+#             url: localhost:2181
+#             sessionTimeout: 5000
+#             connectionTimeout: 2000
         http:
-             url : http://localhost:8887
+             url : http://localhost:8888
 
 
 eureka:
