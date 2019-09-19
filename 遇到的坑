@@ -21,6 +21,8 @@
     了解hystrix:[东西有点多]
     https://blog.csdn.net/loushuiyifan/article/details/82702522
 
+8,RateLimiterPlugin 限流插件 需要执行   request_rate_limiter.lua  脚本
+
 
 
 
